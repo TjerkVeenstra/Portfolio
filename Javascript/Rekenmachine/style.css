@@ -1,0 +1,21 @@
+.Calculator{
+    height: 100vh; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column;
+}
+
+input[type="button"]{
+    width: 75px;
+    height: 75px;
+    font-size: 50px;
+}
+input[type="text"]{
+    font-size: 25px;
+    height: 75px;
+    width: 305px;
+}
+#ShowResult{
+    width: 313px;
+}
