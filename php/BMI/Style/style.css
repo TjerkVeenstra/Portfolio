@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "MCfont";
+    src: url(Style/Fonts/minecraft.ttf);
+    font-display: swap;
+  }
+.inputFields{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+.radio{
+    display: flex;
+    flex-direction: row;
+    max-width: 50%;
+    align-items: center;
+    height: 50px;
+    font-size: 20px;
+    font-family: "MCfont";
+}
+
+form, h1{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.allInputs{
+    padding: 10px;
+    border-style:solid;
+    border-width: 5px;
+    border-radius: 10px;
+    width: 500px;
+    background-color: rgb(120, 119, 119);
+}
+
+input{
+    border-radius: 10px;
+    height: 50px;
+    font-size: 20px;
+    background-color: rgb(245, 245, 245);
+    font-family: "MCfont";
+}
+input[type=submit]{
+    width: 500px;
+    background-color: rgb(67, 63, 63);
+    color: azure;
+}
+p{
+    margin: 0;
+    font-size: 20px;
+    color: azure;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-family: "MCfont";
+}
+h1{
+    color: azure;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-family: "MCfont";
+}
+.Title{
+    font-size: 50px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+html{
+    background-image: url("Images/bg.webp");
+    background-position: center;
+    background-size: cover;
+}
+
+.popup{
+    position: absolute;
+    display: flex;
+    padding: 10px;
+    border-style:solid;
+    border-width: 5px;
+    border-radius: 10px;
+    background-color: rgb(120, 119, 119);
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    width: 600px;
+}
+img{
+    width:  500px;
+}
+.popTXT{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.chart{
+    display: flex;
+    width: 500px;
+    align-self: normal;
+    position: absolute;
+    
+}
+
+@media screen and (max-width: 1435px) {
+    .chart{
+        display: flex;
+        width: 500px;
+        align-content: center;
+        justify-content: center;
+        
+    }
+  }
